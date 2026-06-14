@@ -1,0 +1,114 @@
+body{
+    font-family: Roboto, 'Times New Roman', Times;
+    margin: 0px;
+
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    background-color:#1F2937 ;
+    flex-shrink: 1;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15%;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.header h2, .header-list{
+    margin: 0px;
+}
+.header-list{
+    display: flex;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 15%;
+    gap:80px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+}
+.description h1{
+    color:  #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin:0px;
+}
+.content .description .subtext, a{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.sign-up-button{
+    background-color:#3882F6;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 20px;
+    width: 90px;
+}
+.hero-image{
+    width: 1000px;
+    height: auto;
+    background-color: #6d747d;
+
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-title{
+    size: 360px;
+    font-weight: 900;
+    color: #1F2937;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.image-card{
+    border: 3px solid #3882F6;
+    border-radius: 13px;
+    width: 150px;
+    height: 150px;
+}
+.image-label{
+    width:150px;
+    text-align: center;
+    color: #1F2937;
+}
+.quote-section{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 15% ;
+    background-color: #E5E7EB;
+}
+.quote{
+    color: #1F2937;
+    align-self: flex-start;
+    font-size: 36px;
+    font-weight: 300;
+}
+.author{
+    align-self: flex-end;
+    font-size: 36px;
+    font-weight: 600;
+}
