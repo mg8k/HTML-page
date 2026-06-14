@@ -60,6 +60,7 @@ li{
     border-radius: 8px;
     padding: 5px 20px;
     width: 90px;
+    border: transparent;
 }
 .hero-image{
     width: 1000px;
@@ -101,7 +102,7 @@ li{
 .quote-section{
     display: flex;
     flex-direction: column;
-    padding: 80px 15% ;
+    padding: 8% 15% ;
     background-color: #E5E7EB;
 }
 .quote{
@@ -114,4 +115,47 @@ li{
     align-self: flex-end;
     font-size: 36px;
     font-weight: 600;
+}
+.sign-up-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+.sign-up-box{
+    display: flex;
+    gap: 50px;
+    background-color: #3882f6;
+    padding: 5% 10%;
+    border-radius: 8px;
+}
+.sign-up{
+    display: flex;
+    flex-direction: column;
+}
+.sign-up-header{
+    font-size: 20px;
+    color: white;
+    margin: 0px;
+}
+.sign-up-text{
+    font-size: 16px;
+    color: white;
+}
+.sign-up-box .sign-up-button{
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: transparent;
+    border:1px solid white;
+    color: white;
+    align-self: center;
+}
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 90px;
 }
